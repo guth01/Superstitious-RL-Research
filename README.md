@@ -75,8 +75,7 @@ Availability statement for the archived version.
 
 ## License
 
-[Add a license here — MIT is a common permissive default for research code if you don't have a
-specific requirement. GitHub can add this for you at repo-creation time.]
+MIT
 
 ## Contact
 
