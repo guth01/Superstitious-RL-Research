@@ -1,0 +1,17 @@
+tier,test,family,comparison,metric,p_raw,stat,cohens_d,diff,ci_lo,ci_hi,n_a,n_b,epsilon_sq,n_total,k,p_corrected,significant_corrected,significant_raw
+A,mannwhitney,final_entropy,noncontingent vs contingent,final_entropy,0.0001554001554001554,64.0,2.4871507250316274,0.2429628220696265,0.15684280941845902,0.33270147071750555,8.0,8.0,,,,0.0012432012432012432,True,True
+A,mannwhitney,final_entropy,noncontingent vs contingent,final_entropy,0.0001554001554001554,64.0,14.128883159462704,1.446135233129028,1.3464261976410532,1.5303386286138883,8.0,8.0,,,,0.0012432012432012432,True,True
+A,mannwhitney,final_entropy,noncontingent vs contingent,final_entropy,0.0009068567509923489,64.0,3.9187342519717876,1.6459938431152161,1.2252052218398914,1.9334375010285496,8.0,8.0,,,,0.004534283754961744,True,True
+A,mannwhitney,final_entropy,noncontingent vs contingent,final_entropy,0.6453768453768453,37.0,0.3388861085583539,0.0019396094545314213,-0.002998785861936103,0.007417830013782561,8.0,8.0,,,,1.0,False,False
+A,kruskal,final_entropy,Qlearning vs DQN vs PPO vs A2C,final_entropy,1.9216239992241338e-05,24.545454545454547,,,,,,,0.7694805194805195,32.0,4.0,0.00017294615993017205,True,True
+A,kruskal,ritual_streak,Qlearning vs DQN vs PPO vs A2C,ritual_streak,1.1149030346907578e-05,25.676074524995393,,,,,,,0.8098598044641212,32.0,4.0,1.1149030346907578e-05,True,True
+B,kruskal,final_entropy,fixed vs variable vs random,final_entropy,0.0003772886551346049,15.765,,,,,,,0.6554761904761905,24.0,3.0,0.0022637319308076295,True,True
+B,kruskal,ritual_strength,fixed vs variable vs random,ritual_strength,0.09946691861066752,4.615860332749557,,,,,,,0.12456477774997891,24.0,3.0,0.39786767444267007,False,False
+B,kruskal,final_entropy,fixed vs variable vs random,final_entropy,0.5812932013147156,1.085000000000008,,,,,,,-0.04357142857142819,24.0,3.0,1.0,False,False
+B,kruskal,ritual_strength,fixed vs variable vs random,ritual_strength,0.15023080828932264,3.7911648911533153,,,,,,,0.08529356624539597,24.0,3.0,0.4506924248679679,False,False
+C,mannwhitney,final_entropy,curiosity OFF vs curiosity ON,final_entropy,0.04988344988344988,13.0,-1.0231665844684705,-0.1209598824441549,-0.22574023227324622,-0.011009478337402172,8.0,8.0,,,,0.19953379953379952,False,True
+C,mannwhitney,ritual_strength,curiosity OFF vs curiosity ON,ritual_strength,1.0,32.5,-0.07474682347580708,-0.012500000000000178,-0.16666666666666663,0.13750000000000007,8.0,8.0,,,,1.0,False,False
+C,mannwhitney,final_entropy,curiosity OFF vs curiosity ON,final_entropy,0.7984459984459983,35.0,-0.04785282465142545,-0.024518000397302897,-0.5288532901302839,0.4160077513600006,8.0,8.0,,,,1.0,False,False
+C,mannwhitney,ritual_strength,curiosity OFF vs curiosity ON,ritual_strength,1.0,32.0,0.10017905117292174,0.01666666666666672,-0.12083333333333335,0.1791666666666667,8.0,8.0,,,,1.0,False,False
+D,kruskal,interval_sensitivity_entropy,I=5 vs I=10 vs I=20,final_entropy,0.0005685052556781307,14.945000000000007,,,,,,,0.6164285714285718,24.0,3.0,0.0005685052556781307,True,True
+D,kruskal,interval_sensitivity_ritual,I=5 vs I=10 vs I=20,ritual_strength,0.001797683883128138,12.64251234845084,,,,,,,0.5067863023071828,24.0,3.0,0.001797683883128138,True,True

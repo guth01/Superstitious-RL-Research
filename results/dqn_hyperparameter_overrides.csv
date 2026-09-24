@@ -1,0 +1,7 @@
+Parameter,SB3 default,Override used,Rationale
+learning_starts,50000.0,200.0,"Default assumes long training; would leave the agent frozen for the entire 15,000-step budget used in this study."
+buffer_size,1000000.0,20000.0,Default buffer (1M) is far larger than the training budget; reduced to a size the run can actually fill and cycle through.
+train_freq,4.0,1.0,"Update every step rather than every 4th, so learning keeps pace with the short horizon shared by all four algorithms."
+target_update_interval,10000.0,250.0,"Default (10,000) would never trigger a single target-network sync within 15,000 steps."
+exploration_fraction,0.1,0.5,"Extended so epsilon decay spans a larger share of the short run, matching tabular Q-learning's decay schedule."
+exploration_final_eps,0.05,0.05,Kept at the SB3 default; matches tabular Q-learning's epsilon_end for comparability across algorithms.
