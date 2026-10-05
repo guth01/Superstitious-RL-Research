@@ -1,0 +1,24 @@
+{
+  "stable_baselines3_version": "2.9.0",
+  "N_SEEDS": 8,
+  "N_SEEDS_PPO_EXT": 24,
+  "TOTAL_STEPS": 15000,
+  "INTERVAL": 10,
+  "EQUIV_MARGIN": 0.5,
+  "null_baseline": {
+    "strength_mean": 0.34604999999999997,
+    "strength_p95": 0.43333333333333335,
+    "streak_mean": 5.9785,
+    "streak_p95": 8.0,
+    "entropy_mean": 1.9890038563169865,
+    "entropy_p05": 1.981694148880353
+  },
+  "power_summary": {
+    "ppo_final_entropy_sd": 0.4844553031758054,
+    "equiv_margin_bits": 0.5,
+    "mde_d_n8": 1.6,
+    "mde_bits_n8": 0.7751284850812886,
+    "mde_d_n24": 0.9,
+    "mde_bits_n24": 0.43600977285822484
+  }
+}

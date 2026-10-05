@@ -1,0 +1,57 @@
+design,family,m,holm_rank,multiplier,tier,context,comparison,metric,p_raw,p_corrected,significant_raw,significant_corrected
+confirmatory,final_entropy,9,1,9,A,noncontingent,Qlearning vs DQN vs PPO vs A2C,final_entropy,1.9216239992241338e-05,0.00017294615993017205,True,True
+confirmatory,final_entropy,9,2,8,A,Qlearning,noncontingent vs contingent,final_entropy,0.0001554001554001554,0.0012432012432012432,True,True
+confirmatory,final_entropy,9,3,7,A,DQN,noncontingent vs contingent,final_entropy,0.0001554001554001554,0.0012432012432012432,True,True
+confirmatory,final_entropy,9,4,6,B,Qlearning,fixed vs variable vs random,final_entropy,0.0003772886551346049,0.0022637319308076295,True,True
+confirmatory,final_entropy,9,5,5,A,PPO,noncontingent vs contingent,final_entropy,0.0009068567509923489,0.004534283754961744,True,True
+confirmatory,final_entropy,9,6,4,C,Qlearning,curiosity OFF vs curiosity ON,final_entropy,0.04988344988344988,0.19953379953379952,True,False
+confirmatory,final_entropy,9,7,3,A,A2C,noncontingent vs contingent,final_entropy,0.6453768453768453,1.0,False,False
+confirmatory,final_entropy,9,8,2,C,PPO,curiosity OFF vs curiosity ON,final_entropy,0.7966032079051237,1.0,False,False
+confirmatory,final_entropy,9,9,1,B,PPO,fixed vs variable vs random,final_entropy,0.8878017199074382,1.0,False,False
+confirmatory,ritual_streak,1,1,1,A,noncontingent,Qlearning vs DQN vs PPO vs A2C,ritual_streak,1.1149030346907578e-05,1.1149030346907578e-05,True,True
+confirmatory,ritual_strength,4,1,4,B,Qlearning,fixed vs variable vs random,ritual_strength,0.09946691861066752,0.39786767444267007,False,False
+confirmatory,ritual_strength,4,2,3,C,PPO,curiosity OFF vs curiosity ON,ritual_strength,0.6551676693187085,1.0,False,False
+confirmatory,ritual_strength,4,3,2,B,PPO,fixed vs variable vs random,ritual_strength,0.7593533947137854,1.0,False,False
+confirmatory,ritual_strength,4,4,1,C,Qlearning,curiosity OFF vs curiosity ON,ritual_strength,1.0,1.0,False,False
+post_hoc_robustness,interval_sensitivity_entropy,1,1,1,D,Qlearning,I=5 vs I=10 vs I=20,final_entropy,0.0005685052556781307,0.0005685052556781307,True,True
+post_hoc_robustness,interval_sensitivity_ritual,1,1,1,D,Qlearning,I=5 vs I=10 vs I=20,ritual_strength,0.001797683883128138,0.001797683883128138,True,True
+supplementary,supp_a2c_entropy,2,1,2,F,n200_45k,noncontingent vs contingent,final_entropy,0.0001554001554001554,0.0003108003108003108,True,True
+supplementary,supp_a2c_entropy,2,2,1,F,n5_15k,noncontingent vs contingent,final_entropy,0.0005535347656685908,0.0005535347656685908,True,True
+supplementary,supp_dqn_ablation_entropy,6,1,6,E,vs_Qlearning,buffer5000_target100 vs Qlearning,final_entropy,0.0001554001554001554,0.0009324009324009324,True,True
+supplementary,supp_dqn_ablation_entropy,6,2,5,E,vs_Qlearning,gamma0.9 vs Qlearning,final_entropy,0.0001554001554001554,0.0009324009324009324,True,True
+supplementary,supp_dqn_ablation_entropy,6,3,4,E,vs_main_DQN,lr1e-3 vs main_DQN,final_entropy,0.0001554001554001554,0.0009324009324009324,True,True
+supplementary,supp_dqn_ablation_entropy,6,4,3,E,vs_Qlearning,lr1e-3 vs Qlearning,final_entropy,0.0001554001554001554,0.0009324009324009324,True,True
+supplementary,supp_dqn_ablation_entropy,6,5,2,E,vs_main_DQN,gamma0.9 vs main_DQN,final_entropy,0.037917637917637914,0.07583527583527583,True,False
+supplementary,supp_dqn_ablation_entropy,6,6,1,E,vs_main_DQN,buffer5000_target100 vs main_DQN,final_entropy,0.23449883449883446,0.23449883449883446,False,False
+supplementary,supp_dqn_ablation_ritual,6,1,6,E,vs_Qlearning,lr1e-3 vs Qlearning,ritual_strength,0.0008831659948526897,0.005298995969116138,True,True
+supplementary,supp_dqn_ablation_ritual,6,2,5,E,vs_Qlearning,buffer5000_target100 vs Qlearning,ritual_strength,0.001282998223801636,0.006414991119008179,True,True
+supplementary,supp_dqn_ablation_ritual,6,3,4,E,vs_Qlearning,gamma0.9 vs Qlearning,ritual_strength,0.0037208769017518266,0.014883507607007306,True,True
+supplementary,supp_dqn_ablation_ritual,6,4,3,E,vs_main_DQN,lr1e-3 vs main_DQN,ritual_strength,0.09694108461340395,0.29082325384021185,False,False
+supplementary,supp_dqn_ablation_ritual,6,5,2,E,vs_main_DQN,buffer5000_target100 vs main_DQN,ritual_strength,0.2608321524431415,0.521664304886283,False,False
+supplementary,supp_dqn_ablation_ritual,6,6,1,E,vs_main_DQN,gamma0.9 vs main_DQN,ritual_strength,0.26228635567320824,0.521664304886283,False,False
+supplementary,supp_tierB_pairwise_entropy,6,1,6,B-post,Qlearning,fixed vs variable,final_entropy,0.0001554001554001554,0.0009324009324009324,True,True
+supplementary,supp_tierB_pairwise_entropy,6,2,5,B-post,Qlearning,fixed vs random,final_entropy,0.0001554001554001554,0.0009324009324009324,True,True
+supplementary,supp_tierB_pairwise_entropy,6,3,4,B-post,Qlearning,variable vs random,final_entropy,0.3822843822843822,1.0,False,False
+supplementary,supp_tierB_pairwise_entropy,6,4,3,B-post,PPO,fixed vs variable,final_entropy,0.6876227792115092,1.0,False,False
+supplementary,supp_tierB_pairwise_entropy,6,5,2,B-post,PPO,fixed vs random,final_entropy,0.7028592976964558,1.0,False,False
+supplementary,supp_tierB_pairwise_entropy,6,6,1,B-post,PPO,variable vs random,final_entropy,0.8285930752186466,1.0,False,False
+supplementary,supp_tierD_schedule_entropy,6,1,6,D2,Qlearning_I=10,fixed vs variable,final_entropy,0.0001554001554001554,0.0009324009324009324,True,True
+supplementary,supp_tierD_schedule_entropy,6,2,5,D2,Qlearning_I=10,fixed vs random,final_entropy,0.0001554001554001554,0.0009324009324009324,True,True
+supplementary,supp_tierD_schedule_entropy,6,3,4,D2,Qlearning_I=5,fixed vs variable,final_entropy,0.0018648018648018648,0.007459207459207459,True,True
+supplementary,supp_tierD_schedule_entropy,6,4,3,D2,Qlearning_I=5,fixed vs random,final_entropy,0.0029526029526029526,0.008857808857808857,True,True
+supplementary,supp_tierD_schedule_entropy,6,5,2,D2,Qlearning_I=20,fixed vs random,final_entropy,0.19487179487179485,0.3897435897435897,False,False
+supplementary,supp_tierD_schedule_entropy,6,6,1,D2,Qlearning_I=20,fixed vs variable,final_entropy,0.5053613053613053,0.5053613053613053,False,False
+supplementary,supp_tierD_schedule_ritual,6,1,6,D2,Qlearning_I=10,fixed vs random,ritual_strength,0.04520135297652211,0.2712081178591327,True,False
+supplementary,supp_tierD_schedule_ritual,6,2,5,D2,Qlearning_I=5,fixed vs random,ritual_strength,0.05426146997347553,0.27130734986737765,False,False
+supplementary,supp_tierD_schedule_ritual,6,3,4,D2,Qlearning_I=5,fixed vs variable,ritual_strength,0.215671860294825,0.8626874411793,False,False
+supplementary,supp_tierD_schedule_ritual,6,4,3,D2,Qlearning_I=20,fixed vs variable,ritual_strength,0.29184054514378843,0.8755216354313653,False,False
+supplementary,supp_tierD_schedule_ritual,6,5,2,D2,Qlearning_I=10,fixed vs variable,ritual_strength,0.3159212880406216,0.8755216354313653,False,False
+supplementary,supp_tierD_schedule_ritual,6,6,1,D2,Qlearning_I=20,fixed vs random,ritual_strength,0.711565057449479,0.8755216354313653,False,False
+supplementary,supp_vs_null_entropy,4,1,4,S1,Qlearning,Qlearning vs null(1.989),final_entropy,0.0078125,0.03125,True,True
+supplementary,supp_vs_null_entropy,4,2,3,S1,DQN,DQN vs null(1.989),final_entropy,0.0078125,0.03125,True,True
+supplementary,supp_vs_null_entropy,4,3,2,S1,PPO,PPO vs null(1.989),final_entropy,0.0078125,0.03125,True,True
+supplementary,supp_vs_null_entropy,4,4,1,S1,A2C,A2C vs null(1.989),final_entropy,1.0,1.0,False,False
+supplementary,supp_vs_null_ritual,4,1,4,S1,Qlearning,Qlearning vs null(0.346),ritual_strength,0.0078125,0.03125,True,True
+supplementary,supp_vs_null_ritual,4,2,3,S1,PPO,PPO vs null(0.346),ritual_strength,0.0078125,0.03125,True,True
+supplementary,supp_vs_null_ritual,4,3,2,S1,DQN,DQN vs null(0.346),ritual_strength,0.03125,0.0625,True,False
+supplementary,supp_vs_null_ritual,4,4,1,S1,A2C,A2C vs null(0.346),ritual_strength,0.296875,0.296875,False,False
