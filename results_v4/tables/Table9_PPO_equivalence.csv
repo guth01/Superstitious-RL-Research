@@ -1,0 +1,5 @@
+PPO comparison,diff (bits),90% CI,within +/-0.5?
+fixed vs variable,0.007,"[-0.262, 0.271]",True
+fixed vs random,-0.147,"[-0.376, 0.072]",True
+variable vs random,-0.154,"[-0.370, 0.052]",True
+bonus OFF vs ON,-0.025,"[-0.282, 0.230]",True

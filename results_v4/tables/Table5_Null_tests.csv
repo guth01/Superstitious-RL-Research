@@ -1,0 +1,9 @@
+tier,context,test,family,comparison,metric,p_raw,stat,cohens_d,diff,ci_lo,ci_hi,n_a,n_b,epsilon_sq,n_total,k,n,mu0,p_corrected,significant_corrected,m,holm_rank,multiplier,significant_raw,design
+Null,Qlearning,wilcoxon_1sample,revision_uniform_null_final_entropy,Qlearning vs null(1.989174),final_entropy,0.0078125,0.0,,-1.4825839920256618,,,,,,,,8.0,1.9891741662378108,0.015625,True,4,3,2,True,reviewer_requested
+Null,Qlearning,wilcoxon_1sample,revision_uniform_null_ritual_strength,Qlearning vs null(0.346983),ritual_strength,0.0078125,0.0,,0.4821833333333334,,,,,,,,8.0,0.3469833333333333,0.0234375,True,4,2,3,True,reviewer_requested
+Null,DQN,wilcoxon_1sample,revision_uniform_null_final_entropy,DQN vs null(1.989174),final_entropy,0.0078125,0.0,,-0.2799478414319299,,,,,,,,8.0,1.9891741662378108,0.015625,True,4,4,1,True,reviewer_requested
+Null,DQN,wilcoxon_1sample,revision_uniform_null_ritual_strength,DQN vs null(0.346983),ritual_strength,0.03125,3.0,,0.07801666666666669,,,,,,,,8.0,0.3469833333333333,0.0625,False,4,3,2,True,reviewer_requested
+Null,PPO,wilcoxon_1sample,revision_uniform_null_final_entropy,PPO vs null(1.989174),final_entropy,8.344650268554688e-07,4.0,,-0.36454499379203414,,,,,,,,24.0,1.9891741662378108,3.337860107421875e-06,True,4,1,4,True,reviewer_requested
+Null,PPO,wilcoxon_1sample,revision_uniform_null_ritual_strength,PPO vs null(0.346983),ritual_strength,0.0006543902563955586,31.0,,0.15579444444444449,,,,,,,,24.0,0.3469833333333333,0.0026175610255822343,True,4,1,4,True,reviewer_requested
+Null,A2C,wilcoxon_1sample,revision_uniform_null_final_entropy,A2C vs null(1.989174),final_entropy,0.000152587890625,3.0,,-0.1250656378409987,,,,,,,,16.0,1.9891741662378108,0.000457763671875,True,4,2,3,True,reviewer_requested
+Null,A2C,wilcoxon_1sample,revision_uniform_null_ritual_strength,A2C vs null(0.346983),ritual_strength,0.055187838786824595,31.0,,0.05718333333333335,,,,,,,,16.0,0.3469833333333333,0.0625,False,4,4,1,False,reviewer_requested
